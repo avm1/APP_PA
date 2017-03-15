@@ -7,10 +7,12 @@
   	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
   	<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css"/>
   	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+  	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 
-    <title>Radio Parlamento de Andalucía</title>
-    
-<style type="text/css">		
+    <title>Retransmisión en directo</title>    
+
+<style type="text/css">	
+	
 	
 	IMG.centrado{
       	display: block;
@@ -36,26 +38,22 @@
   		margin-right: auto;
 	}
       
-</style>    
+</style> 
 </head>
 
-<body>
-	<p></p>		
+<body>	
+	<p></p>
 	<center><img src="logo.png" alt="Parlamento de Andalucía"  width="300" height="70"></center>    
-    <center><h1>AUDIO EN DIRECTO</h1></center><p></p>
+    <center><h2>TV EN DIRECTO</h2></center><p></p>        
     <hr style="color: green;" />        
 	
-	
-
-	<center><a href="#" onclick="window.open('canal1.html', '_system', 'location=yes');"><h1>CANAL 1</h1></a></center>
+	<center><a href="#" onclick="window.open('rtsp://193.147.254.64:1935/parlamento1/_definst_/parlamento1.stream', '_system', 'location=yes');"><h1>CANAL 1</h1></a></center>
 	<p></p>
-	<center><a href="#" onclick="window.open('canal2.html', '_system', 'location=yes');"><h1>CANAL 2</h1></a></center>
+	<center><a href="#" onclick="window.open('rtsp://193.147.254.64:1935/parlamento2/_definst_/parlamento2.stream', '_system', 'location=yes');"><h1>CANAL 2</h1></a></center>
 	<p></p>
-	<center><a href="#" onclick="window.open('canal3.html', '_system', 'location=yes');"><h1>CANAL 3</h1></a></center>
+	<center><a href="#" onclick="window.open('rtsp://193.147.254.64:1935/parlamento3/_definst_/parlamento3.stream', '_system', 'location=yes');"><h1>CANAL 3</h1></a></center>
 	<p></p>
-	<center><a href="#" onclick="window.open('canal4.html', '_system', 'location=yes');"><h1>CANAL 4</h1></a></center>
-      
+	<center><a href="#" onclick="window.open('rtsp://193.147.254.64:1935/parlamento4/_definst_/parlamento4.stream', '_system', 'location=yes');"><h1>CANAL 4</h1></a></center>
+  
 </body>
 </html>
-
-</script>
